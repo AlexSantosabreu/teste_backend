@@ -19,6 +19,13 @@
       DELETE/veiculos/{id}: Apaga o veículo
       
       
+  -------------------------------------------------------------------------    
+      Para conseguir rodar na sua maquina você deve criar um arquivo .env
+      passando as suas configurações:
       
+      DATABASE_NAME=
+      DATABASE_USER=
+      DATABASE_PASSWORD=
+      DATABASE_HOST=
       
-      
+      Caso queira pode rodar rails db:seed, para popular seu banco de dados.
