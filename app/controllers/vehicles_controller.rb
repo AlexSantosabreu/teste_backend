@@ -16,7 +16,6 @@ class VehiclesController < ApplicationController
   # POST /vehicles
   def create
     @vehicle = Vehicle.new(vehicle_params)
-    byebug
     if @vehicle.save
       render json: @vehicle, status: :created, location: @vehicle
     else
